@@ -43,6 +43,42 @@ header {
 a:hover, a:visited, a:link, a:active
 {
     text-decoration: none;
-    color: 	#00bfff;
-    weight: 600;
+    color: 	white;
+    font-size: 600;
+}
+
+/*------------ photo --------------*/
+
+.Me {
+width: 40rem;
+height: 40rem;
+border-radius: 100px;
+}
+
+#intro{ 
+    margin-top: 5rem;
+    display: inline-flex;
+}
+
+#intro .introflex{
+
+    
+}
+
+#intro .one{
+  text-align: center;
+  padding-top: 10rem;
+}
+
+/*-------------body---------*/
+
+h1{
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+h2{
+    font-family: 'Comfortaa';
+   font-weight: 300;
 }
