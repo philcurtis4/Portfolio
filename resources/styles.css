@@ -2,12 +2,18 @@ html{
     margin: 0;
     padding: 0;
     border: 0;
-
+    font-family: 'Comfortaa';
+}
+h2{
+    font-family: 'Comfortaa';
+    font-weight:700;
+}
+h3{
+    font-family: 'Comfortaa';
+    font-weight: 300;
 }
 /*---------navigation---------*/
-header {
 
-}
 #nav .logo{
     height: 100%;
 }
@@ -36,7 +42,7 @@ header {
     position: fixed;
     top: 0;
     flex: 1;
-    font-family: 'Cormorant', serif;
+    font-family: 'Comfortaa', serif;
     left: 0;
     
 }
@@ -50,27 +56,24 @@ a:hover, a:visited, a:link, a:active
 /*------------ photo --------------*/
 
 .Me {
-width: 40rem;
-height: 40rem;
-border-radius: 100px;
+    max-width: 100%;
+    max-height: 45rem;
+    display:flex;
+    border-radius: 100px;
 }
 
 #intro{ 
-    margin-top: 5rem;
-    display: inline-flex;
+    margin-top: 10rem;
+    display: flex;
 }
 
-#intro .introflex{
-
-    
-}
 
 #intro .one{
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 13rem;
 }
 
-/*-------------body---------*/
+/*-------------Intro---------*/
 
 h1{
     font-family: 'Comfortaa';
@@ -81,4 +84,59 @@ h1{
 h2{
     font-family: 'Comfortaa';
    font-weight: 300;
+}
+
+/*-----------about me---------*/
+
+#about h2{
+    font-size: 3rem;
+}
+#about h3{   
+    font-size: 1.5rem;
+}
+.mountain{
+    border-radius: 100px;
+    max-height: 25rem;
+    max-width: 100%;
+}
+
+.aboutpara{
+   text-align: center;
+}
+.aboutcontainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+/*----------Projects------------*/
+
+#projects h2{
+    font-size: 3rem;
+}
+#projects li{
+    font-size: 1.5rem;
+}
+
+/*----------Skills------------*/
+
+#skills h2{
+    font-size: 3rem;
+}
+.skillscontainer{
+    display: flex;
+    max-width: 50rem;
+    justify-content: space-between;
+    align-content: center;
+
+}
+.logo{
+    max-width:8rem;
+}
+
+/*-----------contact----------*/
+
+#contact h2{
+    font-size: 3rem;
 }
