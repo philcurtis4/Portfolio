@@ -94,24 +94,39 @@ h2{
 }
 #about h2{
     font-size: 3rem;
+    text-align: center;
 }
 #about h3{   
     font-size: 1.5rem;
+    text-align: center;
 }
 .mountain{
-    border-radius: 100px;
+    border-radius: 60px;
     max-height: 25rem;
     max-width: 100%;
 }
 
-.aboutpara{
-   text-align: center;
-}
 .aboutcontainer{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  align-content: center;
+  max-width: 65rem;
   
+}
+.aboutphoto{
+    padding-top: 10rem;
+    align-items: center;
+}
+.bigcontainer{
+  display:flex;
+  justify-content: space-between;
+}
+.slide{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+.pic{
+    width: 7rem;
 }
 
 /*----------Projects------------*/
@@ -162,9 +177,9 @@ h2{
     max-width: 100%;
     justify-content: space-between;
     align-content: center;
-    padding: 10rem 15rem;
+    padding: 8rem 15rem;
 
 }
 .contact{
-    max-height:5rem;
+    max-height:8rem;
 }
