@@ -13,9 +13,11 @@ h3{
     font-weight: 300;
 }
 /*---------navigation---------*/
-
+#nav{
+    max-height: 5rem;
+}
 #nav .logo{
-    height: 100%;
+    height: 5rem;
 }
 #nav ul{
     list-style-type: none;
@@ -63,14 +65,14 @@ a:hover, a:visited, a:link, a:active
 }
 
 #intro{ 
-    margin-top: 10rem;
+    margin-top: 8rem;
     display: flex;
 }
 
 
 #intro .one{
   text-align: center;
-  padding-top: 13rem;
+  padding-top: 8rem;
 }
 
 /*-------------Intro---------*/
@@ -87,7 +89,9 @@ h2{
 }
 
 /*-----------about me---------*/
-
+#about{
+    padding-top: 4rem;
+}
 #about h2{
     font-size: 3rem;
 }
@@ -111,7 +115,9 @@ h2{
 }
 
 /*----------Projects------------*/
-
+#projects{
+    padding-top: 4rem;
+}
 #projects h2{
     font-size: 3rem;
 }
@@ -120,23 +126,45 @@ h2{
 }
 
 /*----------Skills------------*/
-
+#skills{
+    padding-top: 4rem;
+}
 #skills h2{
     font-size: 3rem;
+    font-weight: 300;
+    
 }
 .skillscontainer{
     display: flex;
-    max-width: 50rem;
+    max-width: 100%;
     justify-content: space-between;
     align-content: center;
-
+    padding: 0 8rem;
+    padding-top: 8rem;
 }
+
 .logo{
     max-width:8rem;
 }
 
 /*-----------contact----------*/
-
+#contact{
+    padding-top: 4rem;
+}
 #contact h2{
     font-size: 3rem;
+}
+#contact h3{
+    text-align: center;
+}
+.contactcontainer{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+    align-content: center;
+    padding: 10rem 15rem;
+
+}
+.contact{
+    max-height:5rem;
 }
