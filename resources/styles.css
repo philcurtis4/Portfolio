@@ -90,7 +90,7 @@ h2{
 
 /*-----------about me---------*/
 #about{
-    padding-top: 4rem;
+    padding-top: 3.5rem;
 }
 #about h2{
     font-size: 3rem;
@@ -103,12 +103,13 @@ h2{
 .mountain{
     border-radius: 60px;
     max-height: 25rem;
-    max-width: 100%;
+    max-width: 90%;
+    margin-left:3rem;
 }
 
 .aboutcontainer{
   align-content: center;
-  max-width: 65rem;
+  max-width: 62rem;
   
 }
 .aboutphoto{
@@ -168,6 +169,7 @@ h2{
 }
 #contact h2{
     font-size: 3rem;
+    text-align:center;
 }
 #contact h3{
     text-align: center;
@@ -182,4 +184,16 @@ h2{
 }
 .contact{
     max-height:8rem;
+    justify-content: center;
 }
+
+
+#hover-three{ 
+    display:none;
+    justify-content: center;
+    
+}
+#hover-one{
+    display:none;
+    justify-content: center;
+} 
