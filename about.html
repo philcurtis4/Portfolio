@@ -6,7 +6,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;700&family=Cormorant:ital,wght@0,600;1,300&display=swap" rel="stylesheet">
-        <script src="./resources/index.js"></script>
+        
     </header>
 
     <body>
@@ -27,11 +27,11 @@
         </nav>
 
     <div id="about">
-      <div class="bigcontainer">
+      <div id="bigBoy" class="bigcontainer">
         <div class="aboutcontainer">
 
             
-                <h2>About Me</h2>
+                <h2 id="tester">About Me</h2>
                 <h3>Hello! I'm a dedicated individual with a passion for education and technology. 
                     I spent two enriching years as an educator, specializing in physics, where I had the privilege of sharing my knowledge and inspiring young minds. 
                     My journey has taken me across borders, as I've had the unique experience of teaching English in both Japan and Korea,
@@ -54,15 +54,24 @@
       </div>
 
 
-      <div class="slide">
-        <div><img class="pic" src="./resources/images/bukan.jpg"></div>
-        <div><img class="pic" src="./resources/images/chicago.jpg"></div>
-        <div><img class="pic" src="./resources/images/students.jpg"></div>
-        <div><img class="pic" src="./resources/images/group hike.jpg"></div>
-        <div><img class="pic" src="./resources/images/temple.jpg"></div>
+      <div id="slide" class="slide">
+        <div class="photo_one"><img class="pic" src="./resources/images/bukan.jpg"></div>
+        <div class="photo_two"><img class="pic" src="./resources/images/chicago.jpg"></div>
+        <div class="photo_three"><img class="pic" src="./resources/images/students.jpg"></div>
+        <div class="photo_four"><img class="pic" src="./resources/images/group hike.jpg"></div>
+        <div class="photo_five"><img class="pic" src="./resources/images/temple.jpg"></div>
+      </div>
+
+      <div id="hidden">
+        <div id="one" class="photo_one_pop"><img class="pic_pop" src="./resources/images/bukan.jpg"></div>
+        <div id="two" class="photo_two_pop"><img class="pic_pop" src="./resources/images/chicago.jpg"></div>
+        <div id="three" class="photo_three_pop"><img class="pic_pop" src="./resources/images/students.jpg"></div>
+        <div id="four" class="photo_four_pop"><img class="pic_pop" src="./resources/images/group hike.jpg"></div>
+        <div id="five" class="photo_five_pop"><img class="pic_pop" src="./resources/images/temple.jpg"></div>
       </div>
     </div>
 
 
     </body>
+    <script src="./resources/index.js"></script>
 </html>

@@ -116,8 +116,8 @@ h2{
     padding-top: 10rem;
     align-items: center;
 }
-.bigcontainer{
-  display:flex;
+#bigBoy{
+  display: flex;
   justify-content: space-between;
 }
 .slide{
@@ -129,7 +129,35 @@ h2{
 .pic{
     width: 7rem;
 }
+#one{
+    display: none;
+    justify-content: center;
+    padding-top: 15rem;
+}
 
+#two{
+    display: none;
+    justify-content: center;
+    padding-top: 9rem;
+}
+#three{
+    display: none;
+    justify-content: center;
+    padding-top: 15rem;
+}
+#four{
+    display: none;
+    justify-content: center;
+    padding-top: 15rem;
+}
+#five{
+    display: none;
+    justify-content: center;
+    padding-top: 15rem;
+}
+.pic_pop{
+    width: 50rem;
+}
 /*----------Projects------------*/
 #projects{
     padding-top: 4rem;
@@ -149,6 +177,9 @@ h2{
     font-size: 3rem;
     font-weight: 300;
     
+}
+#skills h3{
+    text-align: center;
 }
 .skillscontainer{
     display: flex;
@@ -197,3 +228,7 @@ h2{
     display:none;
     justify-content: center;
 } 
+
+
+/* ----------------------------Screen Size Adjustments---------------------------*/
+
