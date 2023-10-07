@@ -232,3 +232,37 @@ h2{
 
 /* ----------------------------Screen Size Adjustments---------------------------*/
 
+@media only screen and (max-width:1600px){
+    .pic_pop{
+        width: 40rem;
+    }
+    #one{
+        padding-top: 10rem;
+    }
+    #two{
+        padding-top: 6rem;
+    }#three{
+        padding-top: 10rem;
+    }#four{
+        padding-top: 10rem;
+    }#five{
+        padding-top: 10rem;
+    }
+    .contactcontainer{
+        padding: 6rem 15rem 0 15rem;
+    }
+
+}
+
+@media only screen and (min-width: 1650px){
+    .pic{
+        width: 12rem;
+    }
+    .slide{
+        padding-top: 7rem;
+    }
+    .aboutphoto{
+        padding-top: 8rem;
+    }
+
+}
