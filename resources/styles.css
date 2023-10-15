@@ -29,6 +29,12 @@ h3{
 #nav .buttons{
     float: right;
 }
+#nav a{
+    color:white;
+}
+#nav a:hover{
+    color: #4CB3FF;
+}
 #nav li{
     padding-left: 3rem;
     color: white;
@@ -228,6 +234,25 @@ h2{
     display:none;
     justify-content: center;
 } 
+.appear_one{
+    color:black;
+}
+.appear_one:hover{
+    color:#4CB3FF;
+}
+.appear_two{
+    color:black;
+}
+.appear_two:hover{
+    color:#4CB3FF;
+}
+.appear_three{
+    color:black;
+}
+.appear_three:hover{
+    color:#4CB3FF;
+}
+
 
 
 /* ----------------------------Screen Size Adjustments---------------------------*/
@@ -263,6 +288,12 @@ h2{
     }
     .aboutphoto{
         padding-top: 8rem;
+    }
+    .aboutcontainer{
+        padding-left: 4rem;
+    }
+    .skillscontainer{
+        padding-top: 14rem;
     }
 
 }
